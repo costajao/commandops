@@ -2,7 +2,6 @@
 name = "commandops"
 version = "0.0.1"
 authors = [{ name="João Victor Costa", email="c1320331@interno.bb.com.br" },]
-homepage = 'https://github.com/costajao/commandops'
 license = {text = "MIT"}
 description = "Frameowork to etl SAS, DB2, Spark on Banco do Brasil"
 readme = "README.md"
@@ -25,6 +24,8 @@ dev = [
     "pytest>=8.3.1",
     "sphinx>=7.4.7"
 ]
+
+homepage = 'https://github.com/costajao/commandops'
 
 [build-system]
 requires = ["setuptools", "wheel"]
