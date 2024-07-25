@@ -1,0 +1,29 @@
+[project]
+name = "commandops"
+version = "0.0.1"
+authors = [{ name="João Victor Costa", email="c1320331@interno.bb.com.br" },]
+description = "Frameowork to etl SAS, DB2, Spark on Banco do Brasil"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas>=1.2.0",
+    "requests>=2.25.0",
+    "urllib3>=1.21.1",
+    "ibm-db>=3.2.3",
+    "ipython>=8.26.0",
+    "saspy>=5.100.1"
+]
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.1",
+    "sphinx>=7.4.7"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

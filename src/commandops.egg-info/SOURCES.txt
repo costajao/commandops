@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/commandops/__init__.py
+src/commandops/commandops.py
+src/commandops.egg-info/PKG-INFO
+src/commandops.egg-info/SOURCES.txt
+src/commandops.egg-info/dependency_links.txt
+src/commandops.egg-info/requires.txt
+src/commandops.egg-info/top_level.txt

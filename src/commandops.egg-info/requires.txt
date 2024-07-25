@@ -1,0 +1,10 @@
+pandas>=1.2.0
+requests>=2.25.0
+urllib3>=1.21.1
+ibm-db>=3.2.3
+ipython>=8.26.0
+saspy>=5.100.1
+
+[dev]
+pytest>=8.3.1
+sphinx>=7.4.7

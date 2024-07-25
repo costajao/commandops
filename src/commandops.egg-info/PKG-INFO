@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: commandops
+Version: 0.0.1
+Summary: Frameowork to etl SAS, DB2, Spark on Banco do Brasil
+Author-email: João Victor Costa <c1320331@interno.bb.com.br>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.2.0
+Requires-Dist: requests>=2.25.0
+Requires-Dist: urllib3>=1.21.1
+Requires-Dist: ibm-db>=3.2.3
+Requires-Dist: ipython>=8.26.0
+Requires-Dist: saspy>=5.100.1
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.1; extra == "dev"
+Requires-Dist: sphinx>=7.4.7; extra == "dev"
