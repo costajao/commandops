@@ -2,6 +2,7 @@
 name = "commandops"
 version = "0.0.1"
 authors = [{ name="João Victor Costa", email="c1320331@interno.bb.com.br" },]
+url='https://github.com/costajao/commandops',
 description = "Frameowork to etl SAS, DB2, Spark on Banco do Brasil"
 readme = "README.md"
 requires-python = ">=3.10"
